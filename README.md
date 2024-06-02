@@ -15,9 +15,9 @@ Por ejemplo el fichero cursos_2023.json  contiene la siguiente información.
 ```{ "titulo" : "Cursos de Formación",
 "año":2023,
 "cursos" : ["IFCD65-FRONT_202302.json","IFCD54-BACK_202306.json","mf0493_202310.json", "IFCD0110_202312.json" 
-]}```
+]} ``` 
 
-LA pagina muestra la lista de cursos con un enlace que nos redirige  a la página alumnos.html en la que le enviamos el nombre del json que contien la información de un curso en concreto
+La pagina muestra la lista de cursos con un enlace que nos redirige  a la página alumnos.html en la que le enviamos el nombre del json que contien la información de un curso en concreto
 
 
 ```
@@ -77,6 +77,6 @@ LA pagina muestra la lista de cursos con un enlace que nos redirige  a la págin
 
  ## web 🌐   https://ikasleak.netlify.app
 
- 
+
 
  
