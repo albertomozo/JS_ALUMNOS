@@ -1,11 +1,15 @@
 {"curso":"IFCD0210_2024_03",
 "fecha inicio" : "2024-03-16",
 "fecha fin" : "2024-07-24",
+"lugar" : "Donosti",
+"empresa" : "CEBANC",
+
 "tutor":
     {"Nombre":"Alberto Mozo",
         "email" : "albertomozodocente@gmail.com",
         "linked" : "https://www.linkedin.com/in/alberto-mozo-avellaned-80615713/",
-        "github" : "https://github.com/albertomozo"
+        "github" : "https://github.com/albertomozo",
+        "url" : "http://albertomozo.infinityfreeapp.com"
        
     
     },

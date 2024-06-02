@@ -54,13 +54,21 @@ function seleccionarCurso()
   .then(data => {
     console.log("Datos: " + data);
     const clase=JSON.parse(data);
-    console.log("Clase: " + clase);
-    console.log("Curso: " + clase.curso);
-    console.log("Lugar: " + clase.lugar);
+
     // datos curso a h1
     //document.querySelector('h1').innerHTML=`${clase.curso} ${clase.fecha_inicio}`;
-    document.querySelector('#curso').innerHTML=`${clase.curso} ${clase.fecha_inicio} Localidad : ${clase.lugar}`;
-    //document.querySelector('#curso').innerHTML=clase.curso + ' '  + clase.fecha_inicio + ' Localidad : ' + clase.lugar ;
+    document.querySelector('#curso').innerHTML=`deno ${clase.curso} ${clase.fecha_inicio}`;
+    // recorremos las propiedades de curso 
+    let datos_curso = '<ul>';
+    for ([index,value] in clase.curso){
+      if (index != 'curso' ) {
+        datos_curso += `<li>${index} : ${value}</li>`;
+      }
+    }
+    datos_curso = '</ul>';
+
+
+    document.querySelector('#datoscurso').innerHTML= datos_curso;
 
     // datos profesor a #profesor
     document.querySelector('#profesor').innerHTML=`<h2>Tutor</h2> ${ficha_persona(clase.tutor)}`;

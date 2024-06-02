@@ -46,7 +46,7 @@ fetch(valor)
     document.querySelector('#curso').innerHTML=tcurso
 
     // datos profesor a #profesor
-    document.querySelector('#profesor').innerHTML=`<h2>Tutor</h2> ${ficha_persona(clase.tutor)} ${ficha_github(clase.tutor)}`;
+    document.querySelector('#profesor').innerHTML=`<h2>Tutor</h2> ${ficha_persona(clase.tutor)} `;
     // datos alumnos a  #alumnos
     //let talumnos = '<h2>Alumnos</h2>';
     let talumnos ='';
@@ -71,14 +71,19 @@ fetch(valor)
     ficha = `<ul><li>Nombre : ${persona.Nombre}</li>
       <li>Email : ${persona.email}</li>
       <li>Linked : <a href="${persona.linked}" target="_blank">${persona.linked}</a></li>
-      <li>Github : <a href="http://github.com/${persona.github}" target="_blank">${persona.github}</a> </li>
-      </ul>`;
-      ficha += `<img src="" id="img-${persona.github}" class="imagengithub">`;
-      console.log('Preso.github' + persona.github)
+      <li>Github : <a href="http://github.com/${persona.github}" target="_blank">${persona.github}</a> </li>`;
+      if  (!parUndefined(persona.url))  {
+        ficha += `<li>Web : <a href="${persona.url}" target="_blank" >${persona.url} </a></li>`;
+      } 
+      ficha += `</ul>`;
+      ficha += `<img src="" id="img-${persona.github}" class="imagengithub"><p id="errorGithub-${persona.github}"></p>`;
+      console.log('Perso.github' + persona.github)
       if  (!parUndefined(persona.github))  {
             ficha += `<img src="" id="${persona.github}" class="imagengithub">`;
             ficha_github(persona.github);
       }  
+     
+ 
      
      
       return ficha;
@@ -142,10 +147,10 @@ fetch(valor)
       
     })
     .catch(err => {
-      console.error("ERROR: ", err.message);
+      console.error("ERROR: ", err);
       imageng = '';
-
-    });        
+      document.getElementById(`errorGithub-${usuario}`).innerHTML=err.message; 
+    });       
   
 }
 

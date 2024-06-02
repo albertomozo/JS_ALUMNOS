@@ -1,4 +1,6 @@
-                            
+ 
+ 
+ 
 fetch("cursos_2023.json")
   .then(response => {
     if (response.ok){
