@@ -12,15 +12,18 @@ CSS
 Muestra los cursos que estan alamcenados en cursos_YYYY.json. 
 
 Por ejemplo el fichero cursos_2023.json  contiene la siguiente información.
-```{ "titulo" : "Cursos de Formación",
+
+```json 
+{ "titulo" : "Cursos de Formación",
 "año":2023,
 "cursos" : ["IFCD65-FRONT_202302.json","IFCD54-BACK_202306.json","mf0493_202310.json", "IFCD0110_202312.json" 
-]} ``` 
+]} 
+``` 
 
 La pagina muestra la lista de cursos con un enlace que nos redirige  a la página alumnos.html en la que le enviamos el nombre del json que contien la información de un curso en concreto
 
 
-```
+```json
 {"curso":"IFCD0210_2024_03",
 "fecha inicio" : "2024-03-16",
 "fecha fin" : "2024-07-24",
@@ -74,6 +77,30 @@ La pagina muestra la lista de cursos con un enlace que nos redirige  a la págin
     ]
 }
  ```
+
+ Tenmos 3 tipos de datos 
+
+ ### curso 
+ Obligatorio 
+ - curso
+ - fecha-inicio
+
+### personas
+Pueden ser tutores y alumnos, ambos tienen en comun los datos de persona
+
+#### datos persona
+nombre
+email
+linkedin
+github
+url
+#### datos evolucion
+Dependiendo de la formación impartida, colocamos las materias en  2 grupos inicio y fin para valorar los conocimientos iniciales y los finales.
+
+Normalmente al comenzar cada curso, genero un cuestionario de inicio en el que solicto los datos a los alumnos al inicio de la formación.
+
+AL terminar relleno los datos finales. 
+
 
  ## web 🌐   https://ikasleak.netlify.app
 
