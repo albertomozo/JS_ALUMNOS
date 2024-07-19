@@ -36,6 +36,9 @@ fetch(valor)
                
             tcurso += `<tr><td><b>${i} : </b></td><td>${clase[i]} </td></tr>`;
         }
+        if (i == 'url_drive'){
+            tcurso += `<tr><td><b>${i} : </b></td><td><a href="${clase[i]}" target="_blank">Enlace a Documentacion</a></td></tr>`;
+        }
       
     }
     tcurso += '</table>';

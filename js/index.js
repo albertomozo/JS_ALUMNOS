@@ -1,7 +1,7 @@
  
  
  
-fetch("cursos_2023.json")
+fetch("cursos_web.json")
   .then(response => {
     if (response.ok){
       console.log('response.ok ' + response.ok); 

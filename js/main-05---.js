@@ -1,9 +1,7 @@
 
-  /****** version 04 ******************/
-  // funcion estrellas
-  // enlaces en ficha persona
-  // imagen de github
-  // parUndefined(valor) -> para evitar mostrar valores vacios
+  /****** version 05 ******************/
+ 
+  // leer con for opierdades de curso
   /* recoger valores de la url */
   const params = new URLSearchParams(window.location.search);
   let valor = params.get("curso");   
@@ -34,7 +32,11 @@ fetch(valor)
       for (let i in clase)   {
         if ( typeof clase[i] !== "object"){
                
-            tcurso += `<tr><td><b>${i} : </b></td><td>${clase[i]} </td></tr>`;
+            if (index == 'url_drive'){
+                datos_curso += `<tr><td><b>${i}</td><td><a href="${clase[i]}" target="_blank">Enlace a Documentacion</a></td></tr>`;
+            } else {
+                datos_curso += `<tr><td><b>${i} : </b></td><td>${clase[i]} </td></tr>`;
+            }
         }
       
     }

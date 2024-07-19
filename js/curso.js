@@ -63,6 +63,10 @@ function seleccionarCurso()
     for ([index,value] in clase.curso){
       if (index != 'curso' ) {
         datos_curso += `<li>${index} : ${value}</li>`;
+       
+      } 
+      if (index == 'url_drive'){
+          datos_curso += `<li><a href="${value}" target="_blank">Enlace a Documentacion</a></li>`;
       }
     }
     datos_curso = '</ul>';
