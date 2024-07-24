@@ -31,7 +31,7 @@ La pagina muestra la lista de cursos con un enlace que nos redirige  a la págin
     {"Nombre":"Alberto Mozo",
         "email" : "albertomozodocente@gmail.com",
         "linked" : "https://www.linkedin.com/in/alberto-mozo-avellaned-80615713/",
-        "github" : "https://github.com/albertomozo"
+        "github" : "albertomozo"
        
     
     },
