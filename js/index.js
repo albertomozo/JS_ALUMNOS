@@ -23,7 +23,7 @@ fetch("cursos_web.json")
     let tselector ='<ul>';
     console.log(listacursos.cursos);
     console.log(listacursos.cursos.length);
-    console.log(listacursos.cursos[0]);
+    console.log(listacursos.cursos[1]);
     for ( i=0 ; i<listacursos.cursos.length;i++)
     {
       tselector += '<li><a href="alumnos.html?curso='+listacursos.cursos[i]+'">'+listacursos.cursos[i]+'</a></li>';

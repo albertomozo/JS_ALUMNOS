@@ -1,6 +1,6 @@
 # JS_ALUMNOS - IKASLEAK
 
-Sitio web que lee la información de los cursos que he impartido por años usando JSON para almacenar la información. 
+Sitio web que lee la información de los cursos que he impartido usando JSON para almacenar la información. 
 
 ## tecnologias
 JS
@@ -9,18 +9,20 @@ CSS
 
 ## index.html
 
-Muestra los cursos que estan alamcenados en cursos_YYYY.json. 
+Muestra los cursos que estan alamcenados en cursos_web.json. 
 
-Por ejemplo el fichero cursos_2023.json  contiene la siguiente información.
+.
 
 ```json 
 { "titulo" : "Cursos de Formación",
-"año":2023,
-"cursos" : ["IFCD65-FRONT_202302.json","IFCD54-BACK_202306.json","mf0493_202310.json", "IFCD0110_202312.json" 
-]} 
+"año":"2022-2024",
+"cursos" : ["IFCD0210_202207.json","IFCD0210_202211.json","mf0493_202310.json","IFCD0210_202403.json"]}
 ``` 
 
-La pagina muestra la lista de cursos con un enlace que nos redirige  a la página alumnos.html en la que le enviamos el nombre del json que contien la información de un curso en concreto
+La pagina muestra la lista de cursos con un enlace que nos redirige  a la página alumnos.html en la que le enviamos el nombre del json que contien la información de un curso en concreto 
+
+## alumnos.html?curso=nombre_curso.json
+Esta página lee el JSON nombre_curso.json y lo muestra en pantalla 
 
 
 ```json
@@ -77,7 +79,7 @@ La pagina muestra la lista de cursos con un enlace que nos redirige  a la págin
     ]
 }
  ```
-
+## estructura de datos del JSON
  Tenmos 3 tipos de datos 
 
  ### curso 
@@ -99,7 +101,10 @@ Dependiendo de la formación impartida, colocamos las materias en  2 grupos inic
 
 Normalmente al comenzar cada curso, genero un cuestionario de inicio en el que solicto los datos a los alumnos al inicio de la formación.
 
-AL terminar relleno los datos finales. 
+Al terminar relleno los datos finales. 
+
+Ayuda : esquema de paginas https://drive.google.com/file/d/1MqPCN2GosyfLEKBTLbb_ELdgDEI8Y8Td/view?usp=sharing
+
 
 
  ## web 🌐   https://ikasleak.netlify.app

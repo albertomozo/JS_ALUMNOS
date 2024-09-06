@@ -18,6 +18,7 @@ fetch(valor)
       console.log('response.ok ' + response.ok); 
       return response.text()
     }else{
+      console.log('☣️No existe archivo');
       throw new Error(response.status);
      } 
   })
