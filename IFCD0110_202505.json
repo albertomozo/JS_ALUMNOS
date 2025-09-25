@@ -22,12 +22,14 @@
         "inicio" : {
             "html" : 1,
             "css" : 1,
-            "JS" : 1
+            "JS" : 1,
+            "WP" :0
         },
         "fin" : {
             "html" :0 ,
             "css" : 0,
-            "JS" :0 
+            "JS" :0,
+            "WP" :0 
         }
     },
     {
@@ -36,15 +38,18 @@
         "linked" : "http://Linkedin.com/in/lizcebrecos",
         "github" : "Liz-katherine",
         "url" : "https://cvindex.netlify.app/",
+        "url" : "https://dulceysalado.netlify.app/",
         "inicio" : {
             "html" : 0,
             "css" : 0,
-            "JS" : 0
+            "JS" : 0,
+            "WP" :0
         },
         "fin" : {
             "html" : 2,
-            "css" : 1,
-            "JS" : 0
+            "css" : 2,
+            "JS" : 1,
+            "WP" :2
         }
     },
     
@@ -53,16 +58,18 @@
         "email" : "m.alexandra1118@gmail.com",
         "linked" : "https://www.linkedin.com/in/maryuryalexandracaballeromontes?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "github" : "Maryu1118",
-        "url" : "https://cvmaryurycaballero.netlify.app/",
+        "url" : "https://dulceysalado.netlify.app/",
         "inicio" : {
             "html" : 0,
             "css" : 0,
-            "JS" : 0
+            "JS" : 0,
+            "WP" :0
         },
             "fin" : {
-            "html" : 4,
-            "css" : 4,
-            "JS" : 4
+            "html" : 3,
+            "css" : 3,
+            "JS" : 3,
+            "WP" :1
         }
     },
     {
@@ -76,12 +83,14 @@
         "inicio" :{
             "html" : 0,
             "css" : 0,
-            "JS" : 0
+            "JS" : 0,
+            "WP" :0
         },
         "fin" : {
             "html" : 4,
             "css" : 4,
-            "JS" : 4
+            "JS" : 4,
+            "WP" :0
         }
     },
     {
@@ -91,14 +100,16 @@
             "github" : "jsr707",
             "url" : "https://curriculumjoss.netlify.app/",
             "inicio" : {
-                "html" : 4,
-                "css" : 2,
-                "JS" : 0
+                "html" : 2,
+                "css" : 1,
+                "JS" : 0,
+                "WP" :0
             },
             "fin" : {
-                "html" : 4,
+                "html" : 5,
                 "css" : 4,
-                "JS" : 4
+                "JS" : 2,
+                "WP" :3
             }
     },
     {
@@ -110,12 +121,14 @@
             "inicio" : {
                 "html" : 0,
                 "css" : 0,
-                "JS" : 0
+                "JS" : 0,
+                "WP" :0
             },
                 "fin" : {
                 "html" : 0,
                 "css" : 0,
-                "JS" : 0
+                "JS" : 0,
+                "WP" :0
             }                    
         
     },
@@ -128,29 +141,33 @@
         "inicio" : {
         "html" : 0,
         "css" : 0,
-        "JS" : 0
+        "JS" : 0,
+        "WP" :0
         },
         "fin" : {
         "html" : 4,
         "css" : 4,
-        "JS" : 4
+        "JS" : 4,
+         "WP" :0
         }
     },
     {
             "Nombre":"Marcio Martins Barros",
             "email" : "marciomunguluni@gmail.com",
             "linked" : "",
-            "github" : "Marciomunguluni",
-            "url" : "https://cv-marcio.netlify.app/",
+            "github" :"Marciomunguluni",
+            "url" : "http://marcio.kesug.com/",
             "inicio" : {    
                 "html" : 0,
                 "css" : 0,
-                "JS" : 0           
+                "JS" : 0,
+                "WP" :0          
             },
             "fin" : {    
-                "html" : 3,
-                "css" : 3,
-                "JS" : 2
+                "html" : 5,
+                "css" : 5,
+                "JS" : 2,
+                "WP" :7
              }
     },
     {
@@ -162,12 +179,14 @@
             "inicio" : {    
                 "html" : 3,
                 "css" : 3,
-                "JS" : 3            
+                "JS" : 3,
+                "WP" :0            
             },
             "fin" : {    
                 "html" : 5,
                 "css" : 5,
-                "JS" : 5
+                "JS" : 5,
+                "WP" :0
              }
         },
         {
@@ -179,12 +198,14 @@
             "inicio" : {    
                 "html" : 1,
                 "css" : 1,
-                "JS" : 1            
+                "JS" : 1,
+                "WP" :0            
             },
             "fin" : {    
                 "html" : 4,
                 "css" : 4,
-                "JS" : 4
+                "JS" : 3,
+                "WP" :0
              }
         }
     ]
